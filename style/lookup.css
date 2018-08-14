@@ -1,0 +1,21 @@
+.lookup {
+  position: relative;
+  width: 350px;
+  display: inline-block;
+}
+  
+.lookup-input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+.lookup-dropdown {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  width: 100%;
+}
